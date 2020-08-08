@@ -6,6 +6,12 @@ const styles = StyleSheet.create({
         backgroundColor: '#8257e5'
     },
 
+    header:{
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+    },
+
     topBar:{
         flexDirection: 'row',
         alignItems: 'center',
@@ -20,6 +26,7 @@ const styles = StyleSheet.create({
         maxWidth: 160,
         marginVertical: 40,
     },
+    
 });
 
 export default styles;
