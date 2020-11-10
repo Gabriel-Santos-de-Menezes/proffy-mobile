@@ -29,7 +29,7 @@ function Landing(){
     }
 
     function handleNavigateToStudyPages(){
-        navigate('Study');
+        navigate('Tabs');
     }
 
     return (
